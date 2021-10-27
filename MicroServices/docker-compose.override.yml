@@ -64,7 +64,7 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - "CacheSettings:ConnectionString=basketdb:6379"
     depends_on:
-      - catalogdb
+      - basketdb
     ports:
       - "8001:80"
 
